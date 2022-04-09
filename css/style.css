@@ -50,6 +50,11 @@ body {
 .who-we-are__content {
 	position: relative;
 	z-index: 2;
+
+}
+
+.who-we-are__content *:last-child {
+	margin: 0;
 }
 
 .who-we-are__sub-title {
@@ -90,6 +95,12 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.15px;
+	margin-bottom: 20px;
+}
+
+.who-we-are__text p:not(:last-child) {
+	margin-bottom: 15px;
+
 }
 
 
