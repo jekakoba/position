@@ -8,6 +8,10 @@ body {
 	overflow: hidden;
 }
 
+.heading *:last-child {
+	margin: 0px;
+}
+
 .header__img {
 	margin-top: -490px;
 	width: 100%;
@@ -23,6 +27,8 @@ body {
 	border-radius: 40px;
 	margin-top: -80px;
 }
+
+
 
 .who-we-are::after {
 	content: '';
@@ -47,17 +53,14 @@ body {
 
 }
 
-.who-we-are__content {
+.who-we-are__header {
 	position: relative;
 	z-index: 2;
+	margin-bottom: 37px;
 
 }
 
-.who-we-are__content *:last-child {
-	margin: 0;
-}
-
-.who-we-are__sub-title {
+.heading__sub-title {
 	position: relative;
 	color: #F5F5F5;
 	font-weight: 700;
@@ -69,7 +72,7 @@ body {
 	margin-bottom: 33px;
 }
 
-.who-we-are__sub-title::before {
+.heading__sub-title::before {
 	content: '';
 	background: url(../img/icon.svg) 0 0 no-repeat;
 	position: absolute;
@@ -80,13 +83,14 @@ body {
 	left: 0;
 }
 
-.who-we-are__title {
+.heading__title {
 	max-width: 583px;
 	color: #FFFFFF;
 	font-weight: 900;
 	font-size: 36px;
 	line-height: 1.16;
-	margin-bottom: 36px;
+	margin-bottom: 20px;
+
 }
 
 .who-we-are__text {
@@ -102,7 +106,6 @@ body {
 	margin-bottom: 15px;
 
 }
-
 
 .dog {
 	position: relative;
